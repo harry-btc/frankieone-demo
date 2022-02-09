@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 import FrankieSmartUI from './FrankieSmartUi'
 
@@ -70,6 +70,7 @@ function App() {
         height: '100vh'
       }}
     >
+      <p style={{ color: 'white' }}>Refresh the page to start a new session or a new applicant reference.</p>
       <a
         href="https://docs.google.com/spreadsheets/d/1_sKDBqOtw_4HEth8KLg9EktSFz7ZP4Cq/edit#gid=177907373"
         target="_blank"
