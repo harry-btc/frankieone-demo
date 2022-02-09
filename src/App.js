@@ -42,10 +42,10 @@ function App() {
       applicantReference: reference || 'test', // This will be your applicants reference code
       config: FRANKIE_CONFIG,
       ffToken,
-      // width: `${window.innerWidth * 0.8}px`,
-      // height: `${window.innerHeight / 1.5}px`,
-      width: 'AUTO',
-      height: 'AUTO'
+      width: `${window.innerWidth * 0.8}px`,
+      height: `${window.innerHeight / 1.5}px`
+      // width: 'AUTO',
+      // height: 'AUTO'
     })
   }
 
@@ -82,7 +82,7 @@ function App() {
       <input type="text" placeholder="Enter reference" value={reference} onChange={e => setReference(e.target.value)} />
       <button
         style={{
-          width: '300px',
+          width: '250px',
           marginTop: '20px'
         }}
         onClick={start}
