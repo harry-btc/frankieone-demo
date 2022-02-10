@@ -1,7 +1,7 @@
-import "./FrankieModal.css";
+import './FrankieModal.css'
 
 const FrankieSmartUI = ({ show, onClose }) => {
-  const showHideClassName = show ? "modal display-block" : "modal display-none";
+  const showHideClassName = show ? 'modal display-block' : 'modal display-none'
 
   return (
     <div className={showHideClassName}>
@@ -12,7 +12,7 @@ const FrankieSmartUI = ({ show, onClose }) => {
         <ff-onboarding-widget />
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default FrankieSmartUI;
+export default FrankieSmartUI

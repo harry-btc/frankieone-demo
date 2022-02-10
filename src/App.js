@@ -13,7 +13,17 @@ const FRANKIE_CONFIG = {
   googleAPIKey: 'AIzaSyDVUiuZsJ2ihkKhwqafkK9gLkXq2t7msMQ',
   acceptedCountries: ['AUS'],
   requestAddress: true,
-  consentText: "I agree with the terms described in the Consent section of the Company's webpage"
+  consentText: "I agree with the terms described in the Consent section of the Company's webpage",
+  injectedCssTagID: 'ff-smart-ui',
+  documentUploads: {
+    uploads: [
+      {
+        title: 'Supporting documents',
+        description: 'Upload your supporting documents',
+        types: ['PASSPORT', 'DRIVERS_LICENCE']
+      }
+    ]
+  }
 }
 const ENCODED_CREDENTIALS =
   'ZWVmY2NmMzgtOTIxOS03ZjQ4LWFmNDUtMDA4ZTk0ZjNlNzRjOmNhZjUxNDkxZjZkOTIyNzMwYTZjNDg5YmExMWEyNTAyNjJlMWI0ZWYyODE0NTA5Y2VjMjFkZjIxNzZlMjVkMjk=' // use your base64 encoded credentials!
